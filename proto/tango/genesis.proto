@@ -1,0 +1,14 @@
+syntax = "proto3";
+package tango.tango;
+
+import "gogoproto/gogo.proto";
+import "tango/params.proto";
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "tango/x/tango/types";
+
+// GenesisState defines the tango module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+  // this line is used by starport scaffolding # genesis/proto/state
+}
