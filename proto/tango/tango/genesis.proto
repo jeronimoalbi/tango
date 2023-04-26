@@ -1,0 +1,12 @@
+syntax = "proto3";
+package tango.tango;
+
+import "gogoproto/gogo.proto";
+import "tango/tango/params.proto";
+
+option go_package = "github.com/jeronimoalbi/tango/x/tango/types";
+
+// GenesisState defines the tango module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

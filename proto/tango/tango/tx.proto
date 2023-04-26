@@ -1,0 +1,7 @@
+syntax = "proto3";
+package tango.tango;
+
+option go_package = "github.com/jeronimoalbi/tango/x/tango/types";
+
+// Msg defines the Msg service.
+service Msg {}
