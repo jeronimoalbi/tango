@@ -4,10 +4,14 @@ accounts:
   coins:
   - 20000token
   - 200000000stake
+  mnemonic: notable dentist fever tomato spin invest grief vintage shove cigar host muffin
+    vapor genuine quality street gun sustain spawn please coconut toss flag future
 - name: bob
   coins:
   - 10000token
   - 100000000stake
+  mnemonic: must fade embody army security inhale sample answer enhance borrow domain fantasy
+    flash spot remind jar double emerge slow holiday cotton enable become acid
 client:
   openapi:
     path: docs/static/openapi.yml
